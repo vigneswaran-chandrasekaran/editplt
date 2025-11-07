@@ -21,6 +21,7 @@ plt2json(axs, "example.json", pprint=False)
 ```
 ### Usage example to plot from json data
 ```python
+from editplt import json2plt
 fig, axs = json2plt("example.json")
 plt.show()
 ```
