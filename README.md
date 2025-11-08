@@ -25,8 +25,9 @@ from editplt import json2plt
 fig, axs = json2plt("example.json")
 plt.show()
 ```
-
 And you get your plot,
+
 ![image](docs/Figure_1.png)
 
+Note: Currently handles basic subplot Axes types: `lines`, `images`, `lines` and `collections`
 
